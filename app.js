@@ -3,22 +3,32 @@ var url;
 
 
 $("button").click(function(){
-    $("p").css("color", "red");
+   
 
 
-   var mobileNo= $("#mobile-no").val();
+   var mobileNo= $("#hero-field").val();
 
  var url="https://wa.me/+91"+mobileNo+"";
 
 
 //  console.log(mobileNo);
 
+if (mobileNo=="") {
+  
+  alert("Please Enter Valid Mobile Number")
 
-location.replace(url)
+} else {
+  
+  location.replace(url)
+
+}
 
 
 
-console.log(url);
+
+
+
+
 });
 
 
