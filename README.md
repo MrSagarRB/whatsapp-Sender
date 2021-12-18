@@ -1,4 +1,4 @@
-# whatsapp-Sender
+# Whatsapp-Sender
 Send Whatsapp Message without Saveing Mobile Number
 
 Live Demo -  https://mrsagarrb.github.io/whatsapp-Sender/
